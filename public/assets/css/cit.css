@@ -1,4 +1,23 @@
+.col_container_data{
+	background: #fff;
 
+}
+.col_container_data{
+	margin-bottom: 20px;
+}
+.title_type_data{
+	width: fit-content;
+	padding: 20px;
+	background: grey;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+
+}
+
+.row_box_dashboard{
+
+}
 .box_dashboard{
 	background: #fff;
 	width: 100%;
@@ -9,6 +28,8 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3) !important;
 }
 .box_dashboard .logo{
 	width: 30px;
@@ -30,8 +51,11 @@
 
 .row_box_grafik{
 	margin-top: 30px;
-}
 
+}
+.row_box_grafik > .col_box_grafik{
+	margin-bottom: 20px;
+}
 .box_grafik{
 	background: #fff;
 	width: 100%;
@@ -39,5 +63,15 @@
 	padding: 20px;
 	flex-direction: row;
 	padding: 20px;
+}
+
+.col_box_grafik{
+	box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3) !important;
+
+}
+
+.table-responsive{
+	max-height: 300px;
+	
 }
 

@@ -348,8 +348,9 @@ Route::middleware('auth')->group(function () {
         Route::get('/dashboard/finance/pbt', 'index')->name('dashboard.pbt.index')->can('dashboard.finance.pbt.index');
     });
     Route::controller(CITDashboardController::class)->group(function () {
-        Route::get('/dashboard/finance/cit', 'index')->name('dashboard.pbt.index')->can('dashboard.finance.pbt.index');
+        Route::get('/dashboard/finance/cit', 'index')->name('dashboard.cit.index')->can('dashboard.finance.cit.index');
     });
+
 
 
     Route::controller(SalesDashboardController::class)->group(function () {
